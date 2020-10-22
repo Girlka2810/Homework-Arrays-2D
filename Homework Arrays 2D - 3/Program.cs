@@ -28,15 +28,9 @@ namespace Homework_Arrays_2D___3
                 {
                     for (int j = 0; j < a.GetLength(1); j++)
                     {
-
-                        //if (a[i, j] / 10 != 0)
                         {
-                            Console.Write("  {0} ", a[i, j]);
+                            Console.Write(string.Format("{0,3} ", a[i, j]));
                         }
-                        //else 
-                        //{
-                        //    Console.Write("{ 0 } ", a[i, j]);
-                        //}
                     }
                     Console.WriteLine();
                 }
@@ -58,7 +52,7 @@ namespace Homework_Arrays_2D___3
 
                 }
                 Console.WriteLine();
-                Console.WriteLine("Наименьший элемент массива: "+min);
+                Console.WriteLine("Наименьший элемент массива: " + min);
                 Console.WriteLine("Индекс наименьшего элемента массива: (" + indexI + ", " + indexJ + ")");
             }
         }

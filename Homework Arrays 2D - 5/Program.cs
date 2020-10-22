@@ -47,7 +47,6 @@ namespace Homework_Arrays_2D___5
                     }
                 }
             }
-
             Console.WriteLine($"Количество элементов: {count}");
         }
 

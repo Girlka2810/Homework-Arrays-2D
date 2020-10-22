@@ -23,23 +23,16 @@ namespace Homework_Arrays_2D_2
                 }
             }
             Console.WriteLine("Исходный массив: ");
-            for (int i = 0; i < a.GetLength(0); i++)
+            for(int i = 0; i < a.GetLength(0); i++)
             {
                 for (int j = 0; j < a.GetLength(1); j++)
                 {
-
-                    //if (a[i, j] / 10 != 0)
                     {
-                        Console.Write("  {0} ", a[i, j]);
+                        Console.Write(string.Format("{0,3} ", a[i, j]));
                     }
-                    //else 
-                    //{
-                    //    Console.Write("{ 0 } ", a[i, j]);
-                    //}
                 }
                 Console.WriteLine();
             }
-
             int max = a[0, 0];
             for (int i = 0; i < a.GetLength(0); i++)
             {
