@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Homework_Arrays_2D
+namespace Homework_Arrays_2D_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Найти минимальный элемент массива");
+            Console.WriteLine("Найти максимальный элемент массива");
             Console.WriteLine("Укажите количество переменных:");
             Console.Write("N=");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace Homework_Arrays_2D
 
                     //if (a[i, j] / 10 != 0)
                     {
-                        Console.Write(" {0} ", a[i, j]);
+                        Console.Write("  {0} ", a[i, j]);
                     }
                     //else 
                     //{
@@ -39,19 +39,18 @@ namespace Homework_Arrays_2D
                 }
                 Console.WriteLine();
             }
-            
-            int min = a[0, 0];
+
+            int max = a[0, 0];
             for (int i = 0; i < a.GetLength(0); i++)
             {
                 for (int j = 0; j < a.GetLength(1); j++)
-                    if (min >= a[i, j])
+                    if (max <= a[i, j])
                     {
-                        min = a[i, j];
-                          
+                        max = a[i, j];
                     }
             }
             Console.WriteLine();
-            Console.WriteLine($"Наименьший элемент массива: {min}");
+            Console.WriteLine($"Наибольший элемент массива: {max}");
         }
     }
 }
