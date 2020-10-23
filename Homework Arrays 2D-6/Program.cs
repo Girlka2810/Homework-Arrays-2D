@@ -42,11 +42,16 @@ namespace Homework_Arrays_2D_6
                         a[i, j] = a[j, i];
                         a[j, i] = temp;
                     }
+                }
+            }
+            for (int i = 0; i < a.GetLength(0); i++)
+            {
+                for (int j = 0; j < a.GetLength(1); j++)
+                {
                     Console.Write(string.Format("{0,3}", a[i, j]));
                 }
                 Console.WriteLine();
             }
-
         }
     }
 }
