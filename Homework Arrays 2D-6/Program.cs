@@ -37,11 +37,11 @@ namespace Homework_Arrays_2D_6
             {
                 for (int j = 0; j < a.GetLength(1); j++)
                 {
-                    if (i == j && i < n - 1 && j < n1 - 1)
+                    if (i == j && i < n - 1 && j < n1 - 1)  //вот 2 и 3 условия бессмысленны, потому что они и так проверяются в for
                     {
-                        a[i, j] = a[i, j];
+                        a[i, j] = a[i, j];                  //а здесь ты приравниваешь переменную самой себе
                     }
-                    else if (i < j)
+                    else if (i < j)                         //вот тут разумно
                     {
                         int temp = a[i, j];
                         a[i, j] = a[j, i];
