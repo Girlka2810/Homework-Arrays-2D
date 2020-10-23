@@ -51,6 +51,7 @@ namespace Homework_Arrays_2D_6
                     Console.Write(string.Format("{0,3}", a[i, j]));
                 }
                 Console.WriteLine();
+                
             }
         }
     }
