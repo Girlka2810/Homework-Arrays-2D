@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D-1", "Homework Arrays 2D\Homework Arrays 2D-1.csproj", "{045D5B15-C0D5-4554-859C-20DD486EB3A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-1", "Homework Arrays 2D\Homework Arrays 2D-1.csproj", "{045D5B15-C0D5-4554-859C-20DD486EB3A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D-2", "Homework Arrays 2D-2\Homework Arrays 2D-2.csproj", "{B4AC6B13-7C03-4C7E-9693-9B75996165A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-2", "Homework Arrays 2D-2\Homework Arrays 2D-2.csproj", "{B4AC6B13-7C03-4C7E-9693-9B75996165A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D - 3", "Homework Arrays 2D - 3\Homework Arrays 2D - 3.csproj", "{0118811D-D333-4CAA-979E-2EFD1236C59D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-3", "Homework Arrays 2D - 3\Homework Arrays 2D-3.csproj", "{0118811D-D333-4CAA-979E-2EFD1236C59D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D-4", "Homework Arrays 2D-4\Homework Arrays 2D-4.csproj", "{460C6CAE-3079-4C16-8150-08E94E25656A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-4", "Homework Arrays 2D-4\Homework Arrays 2D-4.csproj", "{460C6CAE-3079-4C16-8150-08E94E25656A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D-5", "Homework Arrays 2D - 5\Homework Arrays 2D-5.csproj", "{32378A6E-B683-46CB-9F9D-BB296E5AC9FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-5", "Homework Arrays 2D - 5\Homework Arrays 2D-5.csproj", "{32378A6E-B683-46CB-9F9D-BB296E5AC9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Arrays 2D-6", "Homework Arrays 2D-6\Homework Arrays 2D-6.csproj", "{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{32378A6E-B683-46CB-9F9D-BB296E5AC9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32378A6E-B683-46CB-9F9D-BB296E5AC9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32378A6E-B683-46CB-9F9D-BB296E5AC9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
