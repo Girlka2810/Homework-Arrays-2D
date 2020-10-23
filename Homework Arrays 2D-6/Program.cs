@@ -37,11 +37,9 @@ namespace Homework_Arrays_2D_6
             {
                 for (int j = 0; j < a.GetLength(1); j++)
                 {
-                    int[,] a1 = a;
                     if (i == j && i < n - 1 && j < n1 - 1)
                     {
                         a[i, j] = a[i, j];
-                        a1[i, j] = a[i, j];
                     }
                     else if (i < j)
                     {
