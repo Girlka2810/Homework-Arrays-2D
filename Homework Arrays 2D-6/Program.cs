@@ -7,14 +7,13 @@ namespace Homework_Arrays_2D_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("!");
             Console.WriteLine("Отразите массив относительно его главной диагонали");
             Console.WriteLine("Укажите количество переменных:");
             Console.Write("N=");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.Write("N1=");
             int n1 = Convert.ToInt32(Console.ReadLine());
-            int[,] a = new int  [n, n1];
+            int[,] a = new int[n, n1];
             Random r = new Random();
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -28,7 +27,7 @@ namespace Homework_Arrays_2D_6
             {
                 for (int j = 0; j < a.GetLength(1); j++)
                 {
-                    Console.Write(string.Format("{0,4}",a[i,j]));
+                    Console.Write(string.Format("{0,4}", a[i, j]));
                 }
                 Console.WriteLine();
             }
@@ -37,11 +36,7 @@ namespace Homework_Arrays_2D_6
             {
                 for (int j = 0; j < a.GetLength(1); j++)
                 {
-                    if (i == j && i < n - 1 && j < n1 - 1)
-                    {
-                        a[i, j] = a[i, j];
-                    }
-                    else if (i < j)
+                    if (i < j)
                     {
                         int temp = a[i, j];
                         a[i, j] = a[j, i];
@@ -51,7 +46,7 @@ namespace Homework_Arrays_2D_6
                 }
                 Console.WriteLine();
             }
-           
+
         }
     }
 }
