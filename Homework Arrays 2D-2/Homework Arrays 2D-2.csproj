@@ -6,4 +6,8 @@
     <RootNamespace>Homework_Arrays_2D_2</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Homework-Arrays-\Arrays\Arrays2D.csproj" />
+  </ItemGroup>
+
 </Project>

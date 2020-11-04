@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Arrays2D;
 namespace Homework_Arrays_2D_4
 {
     class Program
@@ -12,16 +12,7 @@ namespace Homework_Arrays_2D_4
             int n = Convert.ToInt32(Console.ReadLine());
             Console.Write("N1=");
             int n1 = Convert.ToInt32(Console.ReadLine());
-            int[,] a = new int[n, n1];
-            Random r = new Random();
-            for (int i = 0; i < a.GetLength(0); i++)
-            {
-                for (int j = 0; j < a.GetLength(0); j++)
-                {
-                    a[i, j] = r.Next(-100, 100);
-
-                }
-            }
+            int[,] a = Arrays2D.Arrays2DMethods.InputRandomArray2D(n, n1);
             Console.WriteLine("Исходный массив: ");
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -33,22 +24,12 @@ namespace Homework_Arrays_2D_4
                 }
                 Console.WriteLine();
             }
-            int max = a[0, 0];
-            int indexI = 0;
-            int indexJ = 0;
-            for (int i = 0; i < a.GetLength(0); i++)
-            {
-                for (int j = 0; j < a.GetLength(1); j++)
-                    if (max <= a[i, j])
-                    {
-                        max = a[i, j];
-                        indexI = i;
-                        indexJ = j;
-                    }
-            }
+            int max = Arrays2D.Arrays2DMethods.FindMaxElemOfArr2D(a);
+            int[] index = Arrays2D.Arrays2DMethods.FindIndexOfMaxElem2D(a);
             Console.WriteLine();
             Console.WriteLine("Наибольший элемент массива: " + max);
-            Console.WriteLine("Индекс наибольшего элемента массива: (" + indexI + ", " + indexJ + ")");
+            Console.Write("Индекс наибольшего элемента массива: ");
+            Console.WriteLine(String.Join(", ", index));
         }
     }
 }

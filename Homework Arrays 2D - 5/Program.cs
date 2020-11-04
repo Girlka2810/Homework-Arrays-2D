@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Arrays2D;
 namespace Homework_Arrays_2D___5
 {
     class Program
@@ -13,16 +13,7 @@ namespace Homework_Arrays_2D___5
             int n = Convert.ToInt32(Console.ReadLine());
             Console.Write("N1=");
             int n1 = Convert.ToInt32(Console.ReadLine());
-            int[,] a = new int[n, n1];
-            Random r = new Random();
-            int count = 0;
-            for (int i = 0; i < a.GetLength(0); i++)
-            {
-                for (int j = 0; j < a.GetLength(0); j++)
-                {
-                    a[i, j] = r.Next(0, 10);
-                }
-            }
+            int[,] a = Arrays2D.Arrays2DMethods.InputRandomArray2D(n, n1);
             Console.WriteLine("Исходный массив: ");
             for (int i = 0; i < a.GetLength(0); i++)
             {
@@ -33,20 +24,7 @@ namespace Homework_Arrays_2D___5
                 }
             Console.WriteLine();
             }
-            for (int i = 0; i < a.GetLength(0); i++)
-            {
-                for (int j = 0; j < a.GetLength(1); j++)
-                {
-                    bool left = j != 0 && a[i, j] > a[i, j - 1] || j == 0;
-                    bool right = j != n1 - 1 && a[i, j] > a[i, j + 1] || j == n1-1;
-                    bool up = i != 0 && a[i, j] > a[i - 1, j] || i == 0;
-                    bool down = i != n - 1 && a[i, j] > a[i + 1, j] || i == n-1;
-                    if (left && right && up && down)
-                    {
-                        count++;
-                    }
-                }
-            }
+            int count = Arrays2D.Arrays2DMethods.FindQuantityOfElementsThatBiggerThanNeighbour2D(a);
             Console.WriteLine($"Количество элементов: {count}");
         }
 
