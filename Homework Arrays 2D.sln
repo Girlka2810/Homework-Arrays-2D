@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-5", "Hom
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Arrays 2D-6", "Homework Arrays 2D-6\Homework Arrays 2D-6.csproj", "{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays2D", "..\Homework-Arrays-\Arrays\Arrays2D.csproj", "{6E9641A7-1A1D-4C9D-B70A-39F7EFEA480B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework Array 2D Tests", "Homework Array 2D Tests\Homework Array 2D Tests.csproj", "{69B4400D-EED4-4399-B0FA-C030407DE23E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework Array 2D Tests", "Homework Array 2D Tests\Homework Array 2D Tests.csproj", "{69B4400D-EED4-4399-B0FA-C030407DE23E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays2D", "Arrays 2D\Arrays2D.csproj", "{07404973-75B5-4D5D-8698-FDB558DAA0E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,14 +49,14 @@ Global
 		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3B9456-B7ED-4CAC-88BE-67CA38F397B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E9641A7-1A1D-4C9D-B70A-39F7EFEA480B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E9641A7-1A1D-4C9D-B70A-39F7EFEA480B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E9641A7-1A1D-4C9D-B70A-39F7EFEA480B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E9641A7-1A1D-4C9D-B70A-39F7EFEA480B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{69B4400D-EED4-4399-B0FA-C030407DE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{69B4400D-EED4-4399-B0FA-C030407DE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69B4400D-EED4-4399-B0FA-C030407DE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69B4400D-EED4-4399-B0FA-C030407DE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07404973-75B5-4D5D-8698-FDB558DAA0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07404973-75B5-4D5D-8698-FDB558DAA0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07404973-75B5-4D5D-8698-FDB558DAA0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07404973-75B5-4D5D-8698-FDB558DAA0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
